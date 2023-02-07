@@ -30,7 +30,7 @@ function updateClock1() {
 
     h = 23 - h;
     m = 59 - m;
-    s = 60 - s;
+    s = 59 - s;
 
     hoursEl1.innerHTML = h < 10 ? `0${h}` : h;
     minuteEl1.innerHTML = m < 10 ? `0${m}` : m;
